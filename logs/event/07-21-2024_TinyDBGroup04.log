@@ -1,0 +1,536 @@
+[07-21-2024 15:17:18] ### [EVENT] User login started.
+[07-21-2024 15:17:23] ### [EVENT] User deserialized from string: ramyak@example.com
+[07-21-2024 15:17:23] ### [EVENT] User created: ramyak@example.com
+[07-21-2024 15:17:23] ### [EVENT] User deserialized from string: test@example.com
+[07-21-2024 15:17:23] ### [EVENT] User created: test@example.com
+[07-21-2024 15:17:23] ### [EVENT] User deserialized from string: p@g.com
+[07-21-2024 15:17:23] ### [EVENT] User created: p@g.com
+[07-21-2024 15:17:23] ### [EVENT] User deserialized from string: test1@example.com
+[07-21-2024 15:17:23] ### [EVENT] User created: test1@example.com
+[07-21-2024 15:17:23] ### [EVENT] Users loaded successfully from file: src/main/resources/users.txt
+[07-21-2024 15:17:23] ### [EVENT] Login failed due to invalid credentials: s@g.com
+[07-21-2024 15:17:30] ### [EVENT] User registration started.
+[07-21-2024 15:17:33] ### [EVENT] User deserialized from string: ramyak@example.com
+[07-21-2024 15:17:33] ### [EVENT] User created: ramyak@example.com
+[07-21-2024 15:17:33] ### [EVENT] User deserialized from string: test@example.com
+[07-21-2024 15:17:33] ### [EVENT] User created: test@example.com
+[07-21-2024 15:17:33] ### [EVENT] User deserialized from string: p@g.com
+[07-21-2024 15:17:33] ### [EVENT] User created: p@g.com
+[07-21-2024 15:17:33] ### [EVENT] User deserialized from string: test1@example.com
+[07-21-2024 15:17:33] ### [EVENT] User created: test1@example.com
+[07-21-2024 15:17:33] ### [EVENT] Users loaded successfully from file: src/main/resources/users.txt
+[07-21-2024 15:17:36] ### [EVENT] User created: s@g.com
+[07-21-2024 15:17:36] ### [EVENT] User serialized to string: s@g.com
+[07-21-2024 15:17:36] ### [EVENT] User saved successfully: s@g.com
+[07-21-2024 15:17:36] ### [EVENT] User registered successfully: s@g.com
+[07-21-2024 15:17:39] ### [EVENT] User login started.
+[07-21-2024 15:17:44] ### [EVENT] User deserialized from string: ramyak@example.com
+[07-21-2024 15:17:44] ### [EVENT] User created: ramyak@example.com
+[07-21-2024 15:17:44] ### [EVENT] User deserialized from string: test@example.com
+[07-21-2024 15:17:44] ### [EVENT] User created: test@example.com
+[07-21-2024 15:17:44] ### [EVENT] User deserialized from string: p@g.com
+[07-21-2024 15:17:44] ### [EVENT] User created: p@g.com
+[07-21-2024 15:17:44] ### [EVENT] User deserialized from string: test1@example.com
+[07-21-2024 15:17:44] ### [EVENT] User created: test1@example.com
+[07-21-2024 15:17:44] ### [EVENT] User deserialized from string: s@g.com
+[07-21-2024 15:17:44] ### [EVENT] User created: s@g.com
+[07-21-2024 15:17:44] ### [EVENT] Users loaded successfully from file: src/main/resources/users.txt
+[07-21-2024 15:17:46] ### [EVENT] Login successful: s@g.com
+[07-21-2024 15:18:01] ### [EVENT] Executing CREATE DATABASE query: create database test1
+[07-21-2024 15:18:21] ### [EVENT] Executing USE DATABASE query: use test1
+[07-21-2024 15:19:05] ### [EVENT] Executing CREATE TABLE query: create table student(id int , name varchar)
+[07-21-2024 15:19:32] ### [EVENT] Executing CREATE TABLE query: create table student (id int , name varchar)
+[07-21-2024 15:19:32] ### [EVENT] Columns added to table: student
+[07-21-2024 15:20:40] ### [EVENT] Executing INSERT query: insert into student (1,'S')
+[07-21-2024 15:20:40] ### [EVENT] Data inserted into table student: 1 ### 'S'
+[07-21-2024 15:27:26] ### [EVENT] User login started.
+[07-21-2024 15:27:30] ### [EVENT] User deserialized from string: ramyak@example.com
+[07-21-2024 15:27:30] ### [EVENT] User created: ramyak@example.com
+[07-21-2024 15:27:30] ### [EVENT] User deserialized from string: test@example.com
+[07-21-2024 15:27:30] ### [EVENT] User created: test@example.com
+[07-21-2024 15:27:30] ### [EVENT] User deserialized from string: p@g.com
+[07-21-2024 15:27:30] ### [EVENT] User created: p@g.com
+[07-21-2024 15:27:30] ### [EVENT] User deserialized from string: test1@example.com
+[07-21-2024 15:27:30] ### [EVENT] User created: test1@example.com
+[07-21-2024 15:27:30] ### [EVENT] User deserialized from string: s@g.com
+[07-21-2024 15:27:30] ### [EVENT] User created: s@g.com
+[07-21-2024 15:27:30] ### [EVENT] Users loaded successfully from file: src/main/resources/users.txt
+[07-21-2024 15:27:30] ### [EVENT] Login failed due to incorrect security answers: s@g.com
+[07-21-2024 15:27:37] ### [EVENT] User login started.
+[07-21-2024 15:27:44] ### [EVENT] User deserialized from string: ramyak@example.com
+[07-21-2024 15:27:44] ### [EVENT] User created: ramyak@example.com
+[07-21-2024 15:27:44] ### [EVENT] User deserialized from string: test@example.com
+[07-21-2024 15:27:44] ### [EVENT] User created: test@example.com
+[07-21-2024 15:27:44] ### [EVENT] User deserialized from string: p@g.com
+[07-21-2024 15:27:44] ### [EVENT] User created: p@g.com
+[07-21-2024 15:27:44] ### [EVENT] User deserialized from string: test1@example.com
+[07-21-2024 15:27:44] ### [EVENT] User created: test1@example.com
+[07-21-2024 15:27:44] ### [EVENT] User deserialized from string: s@g.com
+[07-21-2024 15:27:44] ### [EVENT] User created: s@g.com
+[07-21-2024 15:27:44] ### [EVENT] Users loaded successfully from file: src/main/resources/users.txt
+[07-21-2024 15:27:44] ### [EVENT] Login failed due to invalid credentials: s@g.com
+[07-21-2024 15:27:47] ### [EVENT] User login started.
+[07-21-2024 15:27:51] ### [EVENT] User deserialized from string: ramyak@example.com
+[07-21-2024 15:27:51] ### [EVENT] User created: ramyak@example.com
+[07-21-2024 15:27:51] ### [EVENT] User deserialized from string: test@example.com
+[07-21-2024 15:27:51] ### [EVENT] User created: test@example.com
+[07-21-2024 15:27:51] ### [EVENT] User deserialized from string: p@g.com
+[07-21-2024 15:27:51] ### [EVENT] User created: p@g.com
+[07-21-2024 15:27:51] ### [EVENT] User deserialized from string: test1@example.com
+[07-21-2024 15:27:51] ### [EVENT] User created: test1@example.com
+[07-21-2024 15:27:51] ### [EVENT] User deserialized from string: s@g.com
+[07-21-2024 15:27:51] ### [EVENT] User created: s@g.com
+[07-21-2024 15:27:51] ### [EVENT] Users loaded successfully from file: src/main/resources/users.txt
+[07-21-2024 15:27:53] ### [EVENT] Login successful: s@g.com
+[07-21-2024 15:28:00] ### [EVENT] Executing USE DATABASE query: use test1
+[07-21-2024 15:28:16] ### [EVENT] Executing CREATE TABLE query: create table student (id int, name varchar)
+[07-21-2024 15:28:50] ### [EVENT] Executing USE DATABASE query: use test1
+[07-21-2024 15:29:06] ### [EVENT] Executing CREATE TABLE query: create table student (id int,name varchar)
+[07-21-2024 15:29:06] ### [EVENT] Columns added to table: student
+[07-21-2024 16:16:41] ### [EVENT] User registration started.
+[07-21-2024 16:16:45] ### [EVENT] User deserialized from string: ramyak@example.com
+[07-21-2024 16:16:45] ### [EVENT] User created: ramyak@example.com
+[07-21-2024 16:16:45] ### [EVENT] User deserialized from string: test@example.com
+[07-21-2024 16:16:45] ### [EVENT] User created: test@example.com
+[07-21-2024 16:16:45] ### [EVENT] User deserialized from string: p@g.com
+[07-21-2024 16:16:45] ### [EVENT] User created: p@g.com
+[07-21-2024 16:16:45] ### [EVENT] User deserialized from string: test1@example.com
+[07-21-2024 16:16:45] ### [EVENT] User created: test1@example.com
+[07-21-2024 16:16:45] ### [EVENT] Users loaded successfully from file: src/main/resources/users.txt
+[07-21-2024 16:16:47] ### [EVENT] User created: s@g.com
+[07-21-2024 16:16:47] ### [EVENT] User serialized to string: s@g.com
+[07-21-2024 16:16:47] ### [EVENT] User saved successfully: s@g.com
+[07-21-2024 16:16:47] ### [EVENT] User registered successfully: s@g.com
+[07-21-2024 16:16:49] ### [EVENT] User login started.
+[07-21-2024 16:16:53] ### [EVENT] User deserialized from string: ramyak@example.com
+[07-21-2024 16:16:53] ### [EVENT] User created: ramyak@example.com
+[07-21-2024 16:16:53] ### [EVENT] User deserialized from string: test@example.com
+[07-21-2024 16:16:53] ### [EVENT] User created: test@example.com
+[07-21-2024 16:16:53] ### [EVENT] User deserialized from string: p@g.com
+[07-21-2024 16:16:53] ### [EVENT] User created: p@g.com
+[07-21-2024 16:16:53] ### [EVENT] User deserialized from string: test1@example.com
+[07-21-2024 16:16:53] ### [EVENT] User created: test1@example.com
+[07-21-2024 16:16:53] ### [EVENT] User deserialized from string: s@g.com
+[07-21-2024 16:16:53] ### [EVENT] User created: s@g.com
+[07-21-2024 16:16:53] ### [EVENT] Users loaded successfully from file: src/main/resources/users.txt
+[07-21-2024 16:16:54] ### [EVENT] Login successful: s@g.com
+[07-21-2024 16:16:56] ### [EVENT] User exporting data and structure: s@g.com
+[07-21-2024 18:35:42] ### [EVENT] User login started.
+[07-21-2024 18:35:45] ### [EVENT] User deserialized from string: ramyak@example.com
+[07-21-2024 18:35:45] ### [EVENT] User created: ramyak@example.com
+[07-21-2024 18:35:45] ### [EVENT] User deserialized from string: test@example.com
+[07-21-2024 18:35:45] ### [EVENT] User created: test@example.com
+[07-21-2024 18:35:45] ### [EVENT] User deserialized from string: p@g.com
+[07-21-2024 18:35:45] ### [EVENT] User created: p@g.com
+[07-21-2024 18:35:45] ### [EVENT] User deserialized from string: test1@example.com
+[07-21-2024 18:35:45] ### [EVENT] User created: test1@example.com
+[07-21-2024 18:35:45] ### [EVENT] User deserialized from string: s@g.com
+[07-21-2024 18:35:45] ### [EVENT] User created: s@g.com
+[07-21-2024 18:35:45] ### [EVENT] Users loaded successfully from file: src/main/resources/users.txt
+[07-21-2024 18:35:46] ### [EVENT] Login successful: s@g.com
+[07-21-2024 18:35:54] ### [EVENT] User exporting data and structure: s@g.com
+[07-21-2024 18:35:58] ### [EVENT] User exporting data and structure: s@g.com
+[07-21-2024 18:37:07] ### [EVENT] Executing USE DATABASE query: use test1
+[07-21-2024 18:37:24] ### [EVENT] Executing CREATE DATABASE query: create database test1
+[07-21-2024 18:38:09] ### [EVENT] Executing USE DATABASE query: use test1
+[07-21-2024 18:38:20] ### [EVENT] User exporting data and structure: s@g.com
+[07-21-2024 18:38:56] ### [EVENT] User login started.
+[07-21-2024 18:39:02] ### [EVENT] User deserialized from string: ramyak@example.com
+[07-21-2024 18:39:02] ### [EVENT] User created: ramyak@example.com
+[07-21-2024 18:39:02] ### [EVENT] User deserialized from string: test@example.com
+[07-21-2024 18:39:02] ### [EVENT] User created: test@example.com
+[07-21-2024 18:39:02] ### [EVENT] User deserialized from string: p@g.com
+[07-21-2024 18:39:02] ### [EVENT] User created: p@g.com
+[07-21-2024 18:39:02] ### [EVENT] User deserialized from string: test1@example.com
+[07-21-2024 18:39:02] ### [EVENT] User created: test1@example.com
+[07-21-2024 18:39:02] ### [EVENT] User deserialized from string: s@g.com
+[07-21-2024 18:39:02] ### [EVENT] User created: s@g.com
+[07-21-2024 18:39:02] ### [EVENT] Users loaded successfully from file: src/main/resources/users.txt
+[07-21-2024 18:39:03] ### [EVENT] Login successful: s@g.com
+[07-21-2024 18:39:07] ### [EVENT] Executing USE DATABASE query: use test1
+[07-21-2024 18:39:40] ### [EVENT] Executing CREATE TABLE query: create table student (id int pk,name varchar)
+[07-21-2024 18:39:40] ### [EVENT] Columns added to table: student
+[07-21-2024 18:40:09] ### [EVENT] Executing CREATE TABLE query: create table professor (id int pk,name varchar)
+[07-21-2024 18:40:09] ### [EVENT] Columns added to table: professor
+[07-21-2024 18:42:13] ### [EVENT] User login started.
+[07-21-2024 18:42:17] ### [EVENT] User deserialized from string: ramyak@example.com
+[07-21-2024 18:42:17] ### [EVENT] User created: ramyak@example.com
+[07-21-2024 18:42:17] ### [EVENT] User deserialized from string: test@example.com
+[07-21-2024 18:42:17] ### [EVENT] User created: test@example.com
+[07-21-2024 18:42:17] ### [EVENT] User deserialized from string: p@g.com
+[07-21-2024 18:42:17] ### [EVENT] User created: p@g.com
+[07-21-2024 18:42:17] ### [EVENT] User deserialized from string: test1@example.com
+[07-21-2024 18:42:17] ### [EVENT] User created: test1@example.com
+[07-21-2024 18:42:17] ### [EVENT] User deserialized from string: s@g.com
+[07-21-2024 18:42:17] ### [EVENT] User created: s@g.com
+[07-21-2024 18:42:17] ### [EVENT] Users loaded successfully from file: src/main/resources/users.txt
+[07-21-2024 18:42:18] ### [EVENT] Login successful: s@g.com
+[07-21-2024 18:42:20] ### [EVENT] User exporting data and structure: s@g.com
+[07-21-2024 18:43:22] ### [EVENT] User login started.
+[07-21-2024 18:43:25] ### [EVENT] User deserialized from string: ramyak@example.com
+[07-21-2024 18:43:25] ### [EVENT] User created: ramyak@example.com
+[07-21-2024 18:43:25] ### [EVENT] User deserialized from string: test@example.com
+[07-21-2024 18:43:25] ### [EVENT] User created: test@example.com
+[07-21-2024 18:43:25] ### [EVENT] User deserialized from string: p@g.com
+[07-21-2024 18:43:25] ### [EVENT] User created: p@g.com
+[07-21-2024 18:43:25] ### [EVENT] User deserialized from string: test1@example.com
+[07-21-2024 18:43:25] ### [EVENT] User created: test1@example.com
+[07-21-2024 18:43:25] ### [EVENT] User deserialized from string: s@g.com
+[07-21-2024 18:43:25] ### [EVENT] User created: s@g.com
+[07-21-2024 18:43:25] ### [EVENT] Users loaded successfully from file: src/main/resources/users.txt
+[07-21-2024 18:43:26] ### [EVENT] Login successful: s@g.com
+[07-21-2024 18:43:35] ### [EVENT] Executing USE DATABASE query: use test1
+[07-21-2024 18:44:13] ### [EVENT] Executing INSERT query: insert into student (1,'S')
+[07-21-2024 18:44:41] ### [EVENT] Executing INSERT query: insert into student (1 pk,'S')
+[07-21-2024 18:46:19] ### [EVENT] Executing INSERT query: insert into student (id int,varchar) values (1,'s')
+[07-21-2024 18:46:39] ### [EVENT] Executing INSERT query: insert into student (id int pk,varchar) values (1,'s')
+[07-21-2024 18:52:46] ### [EVENT] User login started.
+[07-21-2024 18:52:52] ### [EVENT] User deserialized from string: ramyak@example.com
+[07-21-2024 18:52:52] ### [EVENT] User created: ramyak@example.com
+[07-21-2024 18:52:52] ### [EVENT] User deserialized from string: test@example.com
+[07-21-2024 18:52:52] ### [EVENT] User created: test@example.com
+[07-21-2024 18:52:52] ### [EVENT] User deserialized from string: p@g.com
+[07-21-2024 18:52:52] ### [EVENT] User created: p@g.com
+[07-21-2024 18:52:52] ### [EVENT] User deserialized from string: test1@example.com
+[07-21-2024 18:52:52] ### [EVENT] User created: test1@example.com
+[07-21-2024 18:52:52] ### [EVENT] User deserialized from string: s@g.com
+[07-21-2024 18:52:52] ### [EVENT] User created: s@g.com
+[07-21-2024 18:52:52] ### [EVENT] Users loaded successfully from file: src/main/resources/users.txt
+[07-21-2024 18:52:53] ### [EVENT] Login successful: s@g.com
+[07-21-2024 18:52:59] ### [EVENT] Executing USE DATABASE query: use test1
+[07-21-2024 18:54:14] ### [EVENT] Executing INSERT query: insert into student (id int pk,name varchar) values (1,'s')
+[07-21-2024 18:54:14] ### [EVENT] Data inserted into table student: 1 ### 's'
+[07-21-2024 18:54:27] ### [EVENT] User exporting data and structure: s@g.com
+[07-21-2024 18:59:43] ### [EVENT] Executing INSERT query: insert into student (id int pk,name varchar) values (1,'M')
+[07-21-2024 19:02:16] ### [EVENT] Executing INSERT query: insert into professor (id int pk,name varchar) values (1,'Dr. Smiley')
+[07-21-2024 19:02:16] ### [EVENT] Data inserted into table professor: 1 ### 'Dr. Smiley'
+[07-21-2024 19:02:20] ### [EVENT] User exporting data and structure: s@g.com
+[07-21-2024 19:40:56] ### [EVENT] User login started.
+[07-21-2024 19:41:01] ### [EVENT] User deserialized from string: ramyak@example.com
+[07-21-2024 19:41:01] ### [EVENT] User created: ramyak@example.com
+[07-21-2024 19:41:01] ### [EVENT] User deserialized from string: test@example.com
+[07-21-2024 19:41:01] ### [EVENT] User created: test@example.com
+[07-21-2024 19:41:01] ### [EVENT] User deserialized from string: p@g.com
+[07-21-2024 19:41:01] ### [EVENT] User created: p@g.com
+[07-21-2024 19:41:01] ### [EVENT] User deserialized from string: test1@example.com
+[07-21-2024 19:41:01] ### [EVENT] User created: test1@example.com
+[07-21-2024 19:41:01] ### [EVENT] User deserialized from string: s@g.com
+[07-21-2024 19:41:01] ### [EVENT] User created: s@g.com
+[07-21-2024 19:41:01] ### [EVENT] Users loaded successfully from file: src/main/resources/users.txt
+[07-21-2024 19:41:02] ### [EVENT] Login successful: s@g.com
+[07-21-2024 19:41:13] ### [EVENT] Executing USE DATABASE query: use test1
+[07-21-2024 19:41:37] ### [EVENT] User exporting data and structure: s@g.com
+[07-21-2024 19:41:51] ### [EVENT] Executing USE DATABASE query: use test1
+[07-21-2024 19:42:31] ### [EVENT] Executing INSERT query: insert into professor (id int pk,name varchar) values (2,'Dr.Dickey')
+[07-21-2024 19:42:31] ### [EVENT] Data inserted into table professor: 2 ### 'Dr.Dickey'
+[07-21-2024 19:42:35] ### [EVENT] User exporting data and structure: s@g.com
+[07-21-2024 19:51:58] ### [EVENT] User login started.
+[07-21-2024 19:52:01] ### [EVENT] User deserialized from string: ramyak@example.com
+[07-21-2024 19:52:01] ### [EVENT] User created: ramyak@example.com
+[07-21-2024 19:52:01] ### [EVENT] User deserialized from string: test@example.com
+[07-21-2024 19:52:01] ### [EVENT] User created: test@example.com
+[07-21-2024 19:52:01] ### [EVENT] User deserialized from string: p@g.com
+[07-21-2024 19:52:01] ### [EVENT] User created: p@g.com
+[07-21-2024 19:52:01] ### [EVENT] User deserialized from string: test1@example.com
+[07-21-2024 19:52:01] ### [EVENT] User created: test1@example.com
+[07-21-2024 19:52:01] ### [EVENT] User deserialized from string: s@g.com
+[07-21-2024 19:52:01] ### [EVENT] User created: s@g.com
+[07-21-2024 19:52:01] ### [EVENT] Users loaded successfully from file: src/main/resources/users.txt
+[07-21-2024 19:52:01] ### [EVENT] Login failed due to invalid credentials: s@g.com
+[07-21-2024 19:52:03] ### [EVENT] User login started.
+[07-21-2024 19:52:07] ### [EVENT] User deserialized from string: ramyak@example.com
+[07-21-2024 19:52:07] ### [EVENT] User created: ramyak@example.com
+[07-21-2024 19:52:07] ### [EVENT] User deserialized from string: test@example.com
+[07-21-2024 19:52:07] ### [EVENT] User created: test@example.com
+[07-21-2024 19:52:07] ### [EVENT] User deserialized from string: p@g.com
+[07-21-2024 19:52:07] ### [EVENT] User created: p@g.com
+[07-21-2024 19:52:07] ### [EVENT] User deserialized from string: test1@example.com
+[07-21-2024 19:52:07] ### [EVENT] User created: test1@example.com
+[07-21-2024 19:52:07] ### [EVENT] User deserialized from string: s@g.com
+[07-21-2024 19:52:07] ### [EVENT] User created: s@g.com
+[07-21-2024 19:52:07] ### [EVENT] Users loaded successfully from file: src/main/resources/users.txt
+[07-21-2024 19:52:08] ### [EVENT] Login successful: s@g.com
+[07-21-2024 19:52:36] ### [EVENT] Executing USE DATABASE query: use test1
+[07-21-2024 19:53:26] ### [EVENT] Executing INSERT query: insert into student (id int pk,name varchar) values (2,'Mirza)
+[07-21-2024 19:53:26] ### [EVENT] Data inserted into table student: 2 ### 'Mirza
+[07-21-2024 19:53:29] ### [EVENT] User exporting data and structure: s@g.com
+[07-21-2024 19:57:03] ### [EVENT] User login started.
+[07-21-2024 19:57:07] ### [EVENT] User deserialized from string: ramyak@example.com
+[07-21-2024 19:57:07] ### [EVENT] User created: ramyak@example.com
+[07-21-2024 19:57:07] ### [EVENT] User deserialized from string: test@example.com
+[07-21-2024 19:57:07] ### [EVENT] User created: test@example.com
+[07-21-2024 19:57:07] ### [EVENT] User deserialized from string: p@g.com
+[07-21-2024 19:57:07] ### [EVENT] User created: p@g.com
+[07-21-2024 19:57:07] ### [EVENT] User deserialized from string: test1@example.com
+[07-21-2024 19:57:07] ### [EVENT] User created: test1@example.com
+[07-21-2024 19:57:07] ### [EVENT] User deserialized from string: s@g.com
+[07-21-2024 19:57:07] ### [EVENT] User created: s@g.com
+[07-21-2024 19:57:07] ### [EVENT] Users loaded successfully from file: src/main/resources/users.txt
+[07-21-2024 19:57:08] ### [EVENT] Login failed due to incorrect security answers: s@g.com
+[07-21-2024 19:57:10] ### [EVENT] User login started.
+[07-21-2024 19:57:13] ### [EVENT] User deserialized from string: ramyak@example.com
+[07-21-2024 19:57:13] ### [EVENT] User created: ramyak@example.com
+[07-21-2024 19:57:13] ### [EVENT] User deserialized from string: test@example.com
+[07-21-2024 19:57:13] ### [EVENT] User created: test@example.com
+[07-21-2024 19:57:13] ### [EVENT] User deserialized from string: p@g.com
+[07-21-2024 19:57:13] ### [EVENT] User created: p@g.com
+[07-21-2024 19:57:13] ### [EVENT] User deserialized from string: test1@example.com
+[07-21-2024 19:57:13] ### [EVENT] User created: test1@example.com
+[07-21-2024 19:57:13] ### [EVENT] User deserialized from string: s@g.com
+[07-21-2024 19:57:13] ### [EVENT] User created: s@g.com
+[07-21-2024 19:57:13] ### [EVENT] Users loaded successfully from file: src/main/resources/users.txt
+[07-21-2024 19:57:13] ### [EVENT] Login successful: s@g.com
+[07-21-2024 19:57:17] ### [EVENT] Executing USE DATABASE query: use test1
+[07-21-2024 19:58:08] ### [EVENT] Executing INSERT query: insert into student (id int pk,name varchar) values (3,'Mirza')
+[07-21-2024 19:58:08] ### [EVENT] Data inserted into table student: 3 ### 'Mirza'
+[07-21-2024 19:58:10] ### [EVENT] User exporting data and structure: s@g.com
+[07-21-2024 20:04:22] ### [EVENT] User login started.
+[07-21-2024 20:04:27] ### [EVENT] User deserialized from string: ramyak@example.com
+[07-21-2024 20:04:27] ### [EVENT] User created: ramyak@example.com
+[07-21-2024 20:04:27] ### [EVENT] User deserialized from string: test@example.com
+[07-21-2024 20:04:27] ### [EVENT] User created: test@example.com
+[07-21-2024 20:04:27] ### [EVENT] User deserialized from string: p@g.com
+[07-21-2024 20:04:27] ### [EVENT] User created: p@g.com
+[07-21-2024 20:04:27] ### [EVENT] User deserialized from string: test1@example.com
+[07-21-2024 20:04:27] ### [EVENT] User created: test1@example.com
+[07-21-2024 20:04:27] ### [EVENT] User deserialized from string: s@g.com
+[07-21-2024 20:04:27] ### [EVENT] User created: s@g.com
+[07-21-2024 20:04:27] ### [EVENT] Users loaded successfully from file: src/main/resources/users.txt
+[07-21-2024 20:04:28] ### [EVENT] Login successful: s@g.com
+[07-21-2024 20:04:33] ### [EVENT] Executing USE DATABASE query: use test1
+[07-21-2024 20:05:06] ### [EVENT] Executing INSERT query: insert into professor (id,name) values (3,'Mr. H')
+[07-21-2024 20:05:06] ### [EVENT] Data inserted into table professor: 3 ### 'Mr. H'
+[07-21-2024 20:05:08] ### [EVENT] User exporting data and structure: s@g.com
+[07-21-2024 20:13:55] ### [EVENT] User login started.
+[07-21-2024 20:13:59] ### [EVENT] User deserialized from string: ramyak@example.com
+[07-21-2024 20:13:59] ### [EVENT] User created: ramyak@example.com
+[07-21-2024 20:13:59] ### [EVENT] User deserialized from string: test@example.com
+[07-21-2024 20:13:59] ### [EVENT] User created: test@example.com
+[07-21-2024 20:13:59] ### [EVENT] User deserialized from string: p@g.com
+[07-21-2024 20:13:59] ### [EVENT] User created: p@g.com
+[07-21-2024 20:13:59] ### [EVENT] User deserialized from string: test1@example.com
+[07-21-2024 20:13:59] ### [EVENT] User created: test1@example.com
+[07-21-2024 20:13:59] ### [EVENT] User deserialized from string: s@g.com
+[07-21-2024 20:13:59] ### [EVENT] User created: s@g.com
+[07-21-2024 20:13:59] ### [EVENT] Users loaded successfully from file: src/main/resources/users.txt
+[07-21-2024 20:14:00] ### [EVENT] Login successful: s@g.com
+[07-21-2024 20:14:27] ### [EVENT] Executing INSERT query: insert into student (id,name) values (4,'u')
+[07-21-2024 20:14:49] ### [EVENT] Executing INSERT query: insert into student (id,name) values (4,'u')
+[07-21-2024 20:15:00] ### [EVENT] Executing INSERT query: insert into student (id,name) values (4,'u')
+[07-21-2024 20:15:06] ### [EVENT] User login started.
+[07-21-2024 20:15:10] ### [EVENT] User deserialized from string: ramyak@example.com
+[07-21-2024 20:15:10] ### [EVENT] User created: ramyak@example.com
+[07-21-2024 20:15:10] ### [EVENT] User deserialized from string: test@example.com
+[07-21-2024 20:15:10] ### [EVENT] User created: test@example.com
+[07-21-2024 20:15:10] ### [EVENT] User deserialized from string: p@g.com
+[07-21-2024 20:15:10] ### [EVENT] User created: p@g.com
+[07-21-2024 20:15:10] ### [EVENT] User deserialized from string: test1@example.com
+[07-21-2024 20:15:10] ### [EVENT] User created: test1@example.com
+[07-21-2024 20:15:10] ### [EVENT] User deserialized from string: s@g.com
+[07-21-2024 20:15:10] ### [EVENT] User created: s@g.com
+[07-21-2024 20:15:10] ### [EVENT] Users loaded successfully from file: src/main/resources/users.txt
+[07-21-2024 20:15:12] ### [EVENT] Login successful: s@g.com
+[07-21-2024 20:15:17] ### [EVENT] Executing USE DATABASE query: use test1
+[07-21-2024 20:15:23] ### [EVENT] Executing INSERT query: insert into student (id,name) values (4,'u')
+[07-21-2024 20:15:23] ### [EVENT] Data inserted into table student: 4 ### 'u'
+[07-21-2024 20:15:56] ### [EVENT] User exporting data and structure: s@g.com
+[07-21-2024 20:33:07] ### [EVENT] User login started.
+[07-21-2024 20:33:11] ### [EVENT] User deserialized from string: ramyak@example.com
+[07-21-2024 20:33:11] ### [EVENT] User created: ramyak@example.com
+[07-21-2024 20:33:11] ### [EVENT] User deserialized from string: test@example.com
+[07-21-2024 20:33:11] ### [EVENT] User created: test@example.com
+[07-21-2024 20:33:11] ### [EVENT] User deserialized from string: p@g.com
+[07-21-2024 20:33:11] ### [EVENT] User created: p@g.com
+[07-21-2024 20:33:11] ### [EVENT] User deserialized from string: test1@example.com
+[07-21-2024 20:33:11] ### [EVENT] User created: test1@example.com
+[07-21-2024 20:33:11] ### [EVENT] Users loaded successfully from file: src/main/resources/users.txt
+[07-21-2024 20:33:11] ### [EVENT] Login failed due to invalid credentials: s@g.com
+[07-21-2024 20:33:13] ### [EVENT] User registration started.
+[07-21-2024 20:33:17] ### [EVENT] User deserialized from string: ramyak@example.com
+[07-21-2024 20:33:17] ### [EVENT] User created: ramyak@example.com
+[07-21-2024 20:33:17] ### [EVENT] User deserialized from string: test@example.com
+[07-21-2024 20:33:17] ### [EVENT] User created: test@example.com
+[07-21-2024 20:33:17] ### [EVENT] User deserialized from string: p@g.com
+[07-21-2024 20:33:17] ### [EVENT] User created: p@g.com
+[07-21-2024 20:33:17] ### [EVENT] User deserialized from string: test1@example.com
+[07-21-2024 20:33:17] ### [EVENT] User created: test1@example.com
+[07-21-2024 20:33:17] ### [EVENT] Users loaded successfully from file: src/main/resources/users.txt
+[07-21-2024 20:33:19] ### [EVENT] User created: s@g.com
+[07-21-2024 20:33:19] ### [EVENT] User serialized to string: s@g.com
+[07-21-2024 20:33:19] ### [EVENT] User saved successfully: s@g.com
+[07-21-2024 20:33:19] ### [EVENT] User registered successfully: s@g.com
+[07-21-2024 20:33:20] ### [EVENT] User login started.
+[07-21-2024 20:33:24] ### [EVENT] User deserialized from string: ramyak@example.com
+[07-21-2024 20:33:24] ### [EVENT] User created: ramyak@example.com
+[07-21-2024 20:33:24] ### [EVENT] User deserialized from string: test@example.com
+[07-21-2024 20:33:24] ### [EVENT] User created: test@example.com
+[07-21-2024 20:33:24] ### [EVENT] User deserialized from string: p@g.com
+[07-21-2024 20:33:24] ### [EVENT] User created: p@g.com
+[07-21-2024 20:33:24] ### [EVENT] User deserialized from string: test1@example.com
+[07-21-2024 20:33:24] ### [EVENT] User created: test1@example.com
+[07-21-2024 20:33:24] ### [EVENT] User deserialized from string: s@g.com
+[07-21-2024 20:33:24] ### [EVENT] User created: s@g.com
+[07-21-2024 20:33:24] ### [EVENT] Users loaded successfully from file: src/main/resources/users.txt
+[07-21-2024 20:33:26] ### [EVENT] Login successful: s@g.com
+[07-21-2024 20:33:29] ### [EVENT] User exporting data and structure: s@g.com
+[07-21-2024 20:33:33] ### [EVENT] User exporting data and structure: s@g.com
+[07-21-2024 20:33:42] ### [EVENT] User login started.
+[07-21-2024 20:33:46] ### [EVENT] User deserialized from string: ramyak@example.com
+[07-21-2024 20:33:46] ### [EVENT] User created: ramyak@example.com
+[07-21-2024 20:33:46] ### [EVENT] User deserialized from string: test@example.com
+[07-21-2024 20:33:46] ### [EVENT] User created: test@example.com
+[07-21-2024 20:33:46] ### [EVENT] User deserialized from string: p@g.com
+[07-21-2024 20:33:46] ### [EVENT] User created: p@g.com
+[07-21-2024 20:33:46] ### [EVENT] User deserialized from string: test1@example.com
+[07-21-2024 20:33:46] ### [EVENT] User created: test1@example.com
+[07-21-2024 20:33:46] ### [EVENT] User deserialized from string: s@g.com
+[07-21-2024 20:33:46] ### [EVENT] User created: s@g.com
+[07-21-2024 20:33:46] ### [EVENT] Users loaded successfully from file: src/main/resources/users.txt
+[07-21-2024 20:33:47] ### [EVENT] Login successful: s@g.com
+[07-21-2024 20:33:49] ### [EVENT] User exporting data and structure: s@g.com
+[07-21-2024 20:33:57] ### [EVENT] Executing USE DATABASE query: use test1
+[07-21-2024 20:34:00] ### [EVENT] User exporting data and structure: s@g.com
+[07-21-2024 20:34:06] ### [EVENT] User exporting data and structure: s@g.com
+[07-21-2024 20:34:24] ### [EVENT] Executing USE DATABASE query: use test1
+[07-21-2024 20:34:42] ### [EVENT] Executing SELECT query: select * from student
+[07-21-2024 20:35:03] ### [EVENT] Executing SELECT query: select id from student 
+[07-21-2024 20:35:29] ### [EVENT] Executing SELECT query: select id from student where name = 's'
+[07-21-2024 20:35:29] ### [EVENT] No records found for SELECT query
+[07-21-2024 20:35:59] ### [EVENT] Executing SELECT query: select id from student where name = Mirza
+[07-21-2024 20:36:08] ### [EVENT] Executing SELECT query: select id from student where name = 'Mirza'
+[07-21-2024 20:36:08] ### [EVENT] No records found for SELECT query
+[07-21-2024 20:43:31] ### [EVENT] User login started.
+[07-21-2024 20:43:35] ### [EVENT] User deserialized from string: ramyak@example.com
+[07-21-2024 20:43:35] ### [EVENT] User created: ramyak@example.com
+[07-21-2024 20:43:35] ### [EVENT] User deserialized from string: test@example.com
+[07-21-2024 20:43:35] ### [EVENT] User created: test@example.com
+[07-21-2024 20:43:35] ### [EVENT] User deserialized from string: p@g.com
+[07-21-2024 20:43:35] ### [EVENT] User created: p@g.com
+[07-21-2024 20:43:35] ### [EVENT] User deserialized from string: test1@example.com
+[07-21-2024 20:43:35] ### [EVENT] User created: test1@example.com
+[07-21-2024 20:43:35] ### [EVENT] User deserialized from string: s@g.com
+[07-21-2024 20:43:35] ### [EVENT] User created: s@g.com
+[07-21-2024 20:43:35] ### [EVENT] Users loaded successfully from file: src/main/resources/users.txt
+[07-21-2024 20:43:36] ### [EVENT] Login successful: s@g.com
+[07-21-2024 20:43:41] ### [EVENT] Executing USE DATABASE query: use test1
+[07-21-2024 20:44:12] ### [EVENT] Executing SELECT query: SELECT * FROM student
+[07-21-2024 20:44:12] ### [EVENT] Displaying all columns for SELECT query
+[07-21-2024 20:44:33] ### [EVENT] Executing SELECT query: SELECT id FROM student;
+[07-21-2024 20:44:33] ### [EVENT] Displaying selected columns for SELECT query: 
+[07-21-2024 20:44:49] ### [EVENT] Executing SELECT query: SELECT name FROM student
+[07-21-2024 20:44:49] ### [EVENT] Displaying selected columns for SELECT query: 
+[07-21-2024 20:45:09] ### [EVENT] Executing SELECT query: SELECT id FROM student WHERE name = 's'
+[07-21-2024 20:45:09] ### [EVENT] Displaying selected columns for SELECT query: 
+[07-21-2024 20:45:20] ### [EVENT] Executing SELECT query: SELECT id FROM student WHERE name = 'Mirza'
+[07-21-2024 20:45:20] ### [EVENT] Displaying selected columns for SELECT query: 
+[07-21-2024 20:45:29] ### [EVENT] Executing SELECT query: SELECT name FROM student WHERE id = 1
+[07-21-2024 20:45:36] ### [EVENT] Executing SELECT query: SELECT name FROM student WHERE id = 1
+[07-21-2024 20:48:46] ### [EVENT] User login started.
+[07-21-2024 20:48:50] ### [EVENT] User deserialized from string: ramyak@example.com
+[07-21-2024 20:48:50] ### [EVENT] User created: ramyak@example.com
+[07-21-2024 20:48:50] ### [EVENT] User deserialized from string: test@example.com
+[07-21-2024 20:48:50] ### [EVENT] User created: test@example.com
+[07-21-2024 20:48:50] ### [EVENT] User deserialized from string: p@g.com
+[07-21-2024 20:48:50] ### [EVENT] User created: p@g.com
+[07-21-2024 20:48:50] ### [EVENT] User deserialized from string: test1@example.com
+[07-21-2024 20:48:50] ### [EVENT] User created: test1@example.com
+[07-21-2024 20:48:50] ### [EVENT] User deserialized from string: s@g.com
+[07-21-2024 20:48:50] ### [EVENT] User created: s@g.com
+[07-21-2024 20:48:50] ### [EVENT] Users loaded successfully from file: src/main/resources/users.txt
+[07-21-2024 20:48:51] ### [EVENT] Login successful: s@g.com
+[07-21-2024 20:48:56] ### [EVENT] Executing USE DATABASE query: use test1
+[07-21-2024 20:49:05] ### [EVENT] Executing SELECT query: SELECT * FROM student;
+[07-21-2024 20:49:05] ### [EVENT] Displaying all columns for SELECT query
+[07-21-2024 20:49:15] ### [EVENT] Executing SELECT query: SELECT id FROM student;
+[07-21-2024 20:49:15] ### [EVENT] Displaying selected columns for SELECT query: 
+[07-21-2024 20:49:33] ### [EVENT] Executing SELECT query: SELECT name FROM student;
+[07-21-2024 20:49:33] ### [EVENT] Displaying selected columns for SELECT query: 
+[07-21-2024 20:49:43] ### [EVENT] Executing SELECT query: SELECT id FROM student WHERE name = 's';
+[07-21-2024 20:49:43] ### [EVENT] Displaying selected columns for SELECT query: 
+[07-21-2024 20:49:51] ### [EVENT] Executing SELECT query: SELECT id FROM student WHERE name = 'Mirza';
+[07-21-2024 20:49:51] ### [EVENT] Displaying selected columns for SELECT query: 
+[07-21-2024 20:50:05] ### [EVENT] Executing SELECT query: SELECT name FROM student WHERE id = 1;
+[07-21-2024 20:50:28] ### [EVENT] Executing SELECT query: SELECT name FROM student WHERE id = 1;
+[07-21-2024 20:50:37] ### [EVENT] User login started.
+[07-21-2024 20:50:41] ### [EVENT] User deserialized from string: ramyak@example.com
+[07-21-2024 20:50:41] ### [EVENT] User created: ramyak@example.com
+[07-21-2024 20:50:41] ### [EVENT] User deserialized from string: test@example.com
+[07-21-2024 20:50:41] ### [EVENT] User created: test@example.com
+[07-21-2024 20:50:41] ### [EVENT] User deserialized from string: p@g.com
+[07-21-2024 20:50:41] ### [EVENT] User created: p@g.com
+[07-21-2024 20:50:41] ### [EVENT] User deserialized from string: test1@example.com
+[07-21-2024 20:50:41] ### [EVENT] User created: test1@example.com
+[07-21-2024 20:50:41] ### [EVENT] User deserialized from string: s@g.com
+[07-21-2024 20:50:41] ### [EVENT] User created: s@g.com
+[07-21-2024 20:50:41] ### [EVENT] Users loaded successfully from file: src/main/resources/users.txt
+[07-21-2024 20:50:43] ### [EVENT] Login successful: s@g.com
+[07-21-2024 20:50:50] ### [EVENT] Executing USE DATABASE query: use test1
+[07-21-2024 20:50:55] ### [EVENT] Executing SELECT query: SELECT name FROM student WHERE id = 1;
+[07-21-2024 20:51:12] ### [EVENT] User login started.
+[07-21-2024 20:51:15] ### [EVENT] User deserialized from string: ramyak@example.com
+[07-21-2024 20:51:15] ### [EVENT] User created: ramyak@example.com
+[07-21-2024 20:51:15] ### [EVENT] User deserialized from string: test@example.com
+[07-21-2024 20:51:15] ### [EVENT] User created: test@example.com
+[07-21-2024 20:51:15] ### [EVENT] User deserialized from string: p@g.com
+[07-21-2024 20:51:15] ### [EVENT] User created: p@g.com
+[07-21-2024 20:51:15] ### [EVENT] User deserialized from string: test1@example.com
+[07-21-2024 20:51:15] ### [EVENT] User created: test1@example.com
+[07-21-2024 20:51:15] ### [EVENT] User deserialized from string: s@g.com
+[07-21-2024 20:51:15] ### [EVENT] User created: s@g.com
+[07-21-2024 20:51:15] ### [EVENT] Users loaded successfully from file: src/main/resources/users.txt
+[07-21-2024 20:51:16] ### [EVENT] Login successful: s@g.com
+[07-21-2024 20:51:20] ### [EVENT] Executing USE DATABASE query: use test1
+[07-21-2024 20:51:24] ### [EVENT] Executing SELECT query: SELECT name FROM student WHERE id = 1;
+[07-21-2024 20:52:43] ### [EVENT] User serialized to string: s@g.com
+[07-21-2024 20:52:43] ### [EVENT] User serialized to string: s@g.com
+[07-21-2024 20:52:44] ### [EVENT] User serialized to string: s@g.com
+[07-21-2024 20:52:44] ### [EVENT] User serialized to string: s@g.com
+[07-21-2024 20:52:45] ### [EVENT] User serialized to string: s@g.com
+[07-21-2024 20:52:46] ### [EVENT] User serialized to string: s@g.com
+[07-21-2024 20:52:46] ### [EVENT] User serialized to string: s@g.com
+[07-21-2024 20:52:47] ### [EVENT] User serialized to string: s@g.com
+[07-21-2024 20:52:47] ### [EVENT] User serialized to string: s@g.com
+[07-21-2024 20:53:17] ### [EVENT] Executing SELECT query: SELECT name FROM student WHERE id = 1;
+[07-21-2024 20:54:16] ### [EVENT] User login started.
+[07-21-2024 20:54:21] ### [EVENT] User deserialized from string: ramyak@example.com
+[07-21-2024 20:54:21] ### [EVENT] User created: ramyak@example.com
+[07-21-2024 20:54:21] ### [EVENT] User deserialized from string: test@example.com
+[07-21-2024 20:54:21] ### [EVENT] User created: test@example.com
+[07-21-2024 20:54:21] ### [EVENT] User deserialized from string: p@g.com
+[07-21-2024 20:54:21] ### [EVENT] User created: p@g.com
+[07-21-2024 20:54:21] ### [EVENT] User deserialized from string: test1@example.com
+[07-21-2024 20:54:21] ### [EVENT] User created: test1@example.com
+[07-21-2024 20:54:21] ### [EVENT] User deserialized from string: s@g.com
+[07-21-2024 20:54:21] ### [EVENT] User created: s@g.com
+[07-21-2024 20:54:21] ### [EVENT] Users loaded successfully from file: src/main/resources/users.txt
+[07-21-2024 20:54:22] ### [EVENT] Login successful: s@g.com
+[07-21-2024 20:54:28] ### [EVENT] Executing USE DATABASE query: use test1
+[07-21-2024 20:54:35] ### [EVENT] Executing SELECT query: SELECT name FROM student WHERE id = 1
+[07-21-2024 20:54:50] ### [EVENT] Executing SELECT query: SELECT name FROM student WHERE id = '1'
+[07-21-2024 20:54:50] ### [EVENT] Displaying selected columns for SELECT query: 
+[07-21-2024 20:58:09] ### [EVENT] User login started.
+[07-21-2024 20:58:13] ### [EVENT] User deserialized from string: ramyak@example.com
+[07-21-2024 20:58:13] ### [EVENT] User created: ramyak@example.com
+[07-21-2024 20:58:13] ### [EVENT] User deserialized from string: test@example.com
+[07-21-2024 20:58:13] ### [EVENT] User created: test@example.com
+[07-21-2024 20:58:13] ### [EVENT] User deserialized from string: p@g.com
+[07-21-2024 20:58:13] ### [EVENT] User created: p@g.com
+[07-21-2024 20:58:13] ### [EVENT] User deserialized from string: test1@example.com
+[07-21-2024 20:58:13] ### [EVENT] User created: test1@example.com
+[07-21-2024 20:58:13] ### [EVENT] User deserialized from string: s@g.com
+[07-21-2024 20:58:13] ### [EVENT] User created: s@g.com
+[07-21-2024 20:58:13] ### [EVENT] Users loaded successfully from file: src/main/resources/users.txt
+[07-21-2024 20:58:14] ### [EVENT] Login successful: s@g.com
+[07-21-2024 20:58:19] ### [EVENT] Executing USE DATABASE query: use test1
+[07-21-2024 20:58:37] ### [EVENT] Executing SELECT query: SELECT * FROM student;
+[07-21-2024 20:58:37] ### [EVENT] Displaying all columns for SELECT query
+[07-21-2024 20:58:49] ### [EVENT] Executing SELECT query: SELECT id FROM student;
+[07-21-2024 20:58:49] ### [EVENT] Displaying selected columns for SELECT query: 
+[07-21-2024 20:59:00] ### [EVENT] Executing SELECT query: SELECT name FROM student;
+[07-21-2024 20:59:00] ### [EVENT] Displaying selected columns for SELECT query: 
+[07-21-2024 20:59:10] ### [EVENT] Executing SELECT query: SELECT id FROM student WHERE name = 's';
+[07-21-2024 20:59:10] ### [EVENT] Displaying selected columns for SELECT query: 
+[07-21-2024 20:59:17] ### [EVENT] Executing SELECT query: SELECT id FROM student WHERE name = 'Mirza';
+[07-21-2024 20:59:17] ### [EVENT] Displaying selected columns for SELECT query: 
+[07-21-2024 20:59:26] ### [EVENT] Executing SELECT query: SELECT name FROM student WHERE id = 1;
+[07-21-2024 20:59:26] ### [EVENT] Displaying selected columns for SELECT query: 

@@ -1,0 +1,160 @@
+[07-21-2024 15:17:49] ### [QUERY] User s@g.com writing query to execute
+[07-21-2024 15:18:01] ### [QUERY] Query executed successfully: create database test1
+[07-21-2024 15:18:12] ### [QUERY] User s@g.com writing query to execute
+[07-21-2024 15:18:21] ### [QUERY] Query executed successfully: use test1
+[07-21-2024 15:18:24] ### [QUERY] User s@g.com writing query to execute
+[07-21-2024 15:19:05] ### [QUERY] Failed to execute query: create table student(id int , name varchar)
+[07-21-2024 15:19:18] ### [QUERY] User s@g.com writing query to execute
+[07-21-2024 15:19:32] ### [QUERY] Query executed successfully: create table student (id int , name varchar)
+[07-21-2024 15:20:36] ### [QUERY] User s@g.com writing query to execute
+[07-21-2024 15:20:40] ### [QUERY] Query executed successfully: insert into student (1,'S')
+[07-21-2024 15:27:55] ### [QUERY] User s@g.com writing query to execute
+[07-21-2024 15:28:00] ### [QUERY] Query executed successfully: use test1
+[07-21-2024 15:28:03] ### [QUERY] User s@g.com writing query to execute
+[07-21-2024 15:28:16] ### [QUERY] Failed to execute query: create table student (id int, name varchar)
+[07-21-2024 15:28:45] ### [QUERY] User s@g.com writing query to execute
+[07-21-2024 15:28:50] ### [QUERY] Query executed successfully: use test1
+[07-21-2024 15:28:52] ### [QUERY] User s@g.com writing query to execute
+[07-21-2024 15:29:06] ### [QUERY] Query executed successfully: create table student (id int,name varchar)
+[07-21-2024 18:35:48] ### [QUERY] User s@g.com writing query to execute
+[07-21-2024 18:35:52] ### [QUERY] Failed to execute query: s
+[07-21-2024 18:37:04] ### [QUERY] User s@g.com writing query to execute
+[07-21-2024 18:37:07] ### [QUERY] Failed to execute query: use test1
+[07-21-2024 18:37:18] ### [QUERY] User s@g.com writing query to execute
+[07-21-2024 18:37:24] ### [QUERY] Query executed successfully: create database test1
+[07-21-2024 18:38:02] ### [QUERY] User s@g.com writing query to execute
+[07-21-2024 18:38:09] ### [QUERY] Query executed successfully: use test1
+[07-21-2024 18:38:37] ### [QUERY] User s@g.com writing query to execute
+[07-21-2024 18:39:05] ### [QUERY] User s@g.com writing query to execute
+[07-21-2024 18:39:07] ### [QUERY] Query executed successfully: use test1
+[07-21-2024 18:39:10] ### [QUERY] User s@g.com writing query to execute
+[07-21-2024 18:39:40] ### [QUERY] Query executed successfully: create table student (id int pk,name varchar)
+[07-21-2024 18:39:43] ### [QUERY] User s@g.com writing query to execute
+[07-21-2024 18:40:09] ### [QUERY] Query executed successfully: create table professor (id int pk,name varchar)
+[07-21-2024 18:43:29] ### [QUERY] User s@g.com writing query to execute
+[07-21-2024 18:43:35] ### [QUERY] Query executed successfully: use test1
+[07-21-2024 18:43:45] ### [QUERY] User s@g.com writing query to execute
+[07-21-2024 18:44:14] ### [QUERY] Failed to execute query: insert into student (1,'S')
+[07-21-2024 18:44:32] ### [QUERY] User s@g.com writing query to execute
+[07-21-2024 18:44:41] ### [QUERY] Failed to execute query: insert into student (1 pk,'S')
+[07-21-2024 18:45:45] ### [QUERY] User s@g.com writing query to execute
+[07-21-2024 18:46:19] ### [QUERY] Failed to execute query: insert into student (id int,varchar) values (1,'s')
+[07-21-2024 18:46:28] ### [QUERY] User s@g.com writing query to execute
+[07-21-2024 18:46:39] ### [QUERY] Failed to execute query: insert into student (id int pk,varchar) values (1,'s')
+[07-21-2024 18:52:57] ### [QUERY] User s@g.com writing query to execute
+[07-21-2024 18:52:59] ### [QUERY] Query executed successfully: use test1
+[07-21-2024 18:53:05] ### [QUERY] User s@g.com writing query to execute
+[07-21-2024 18:54:14] ### [QUERY] Query executed successfully: insert into student (id int pk,name varchar) values (1,'s')
+[07-21-2024 18:59:25] ### [QUERY] User s@g.com writing query to execute
+[07-21-2024 18:59:43] ### [QUERY] Failed to execute query: insert into student (id int pk,name varchar) values (1,'M')
+[07-21-2024 18:59:59] ### [QUERY] User s@g.com writing query to execute
+[07-21-2024 19:00:39] ### [QUERY] Failed to execute query:  create table student (id int pk,name varchar)
+[07-21-2024 19:02:10] ### [QUERY] User s@g.com writing query to execute
+[07-21-2024 19:02:16] ### [QUERY] Query executed successfully: insert into professor (id int pk,name varchar) values (1,'Dr. Smiley')
+[07-21-2024 19:41:10] ### [QUERY] User s@g.com writing query to execute
+[07-21-2024 19:41:13] ### [QUERY] Query executed successfully: use test1
+[07-21-2024 19:41:47] ### [QUERY] User s@g.com writing query to execute
+[07-21-2024 19:41:51] ### [QUERY] Query executed successfully: use test1
+[07-21-2024 19:41:53] ### [QUERY] User s@g.com writing query to execute
+[07-21-2024 19:42:31] ### [QUERY] Query executed successfully: insert into professor (id int pk,name varchar) values (2,'Dr.Dickey')
+[07-21-2024 19:52:34] ### [QUERY] User s@g.com writing query to execute
+[07-21-2024 19:52:37] ### [QUERY] Query executed successfully: use test1
+[07-21-2024 19:53:24] ### [QUERY] User s@g.com writing query to execute
+[07-21-2024 19:53:26] ### [QUERY] Query executed successfully: insert into student (id int pk,name varchar) values (2,'Mirza)
+[07-21-2024 19:57:15] ### [QUERY] User s@g.com writing query to execute
+[07-21-2024 19:57:17] ### [QUERY] Query executed successfully: use test1
+[07-21-2024 19:57:26] ### [QUERY] User s@g.com writing query to execute
+[07-21-2024 19:58:08] ### [QUERY] Query executed successfully: insert into student (id int pk,name varchar) values (3,'Mirza')
+[07-21-2024 20:04:31] ### [QUERY] User s@g.com writing query to execute
+[07-21-2024 20:04:33] ### [QUERY] Query executed successfully: use test1
+[07-21-2024 20:04:37] ### [QUERY] User s@g.com writing query to execute
+[07-21-2024 20:05:06] ### [QUERY] Query executed successfully: insert into professor (id,name) values (3,'Mr. H')
+[07-21-2024 20:14:04] ### [QUERY] User s@g.com writing query to execute
+[07-21-2024 20:14:27] ### [QUERY] Failed to execute query: insert into student (id,name) values (4,'u')
+[07-21-2024 20:14:46] ### [QUERY] User s@g.com writing query to execute
+[07-21-2024 20:14:49] ### [QUERY] Failed to execute query: insert into student (id,name) values (4,'u')
+[07-21-2024 20:14:55] ### [QUERY] User s@g.com writing query to execute
+[07-21-2024 20:15:00] ### [QUERY] Failed to execute query: insert into student (id,name) values (4,'u')
+[07-21-2024 20:15:15] ### [QUERY] User s@g.com writing query to execute
+[07-21-2024 20:15:17] ### [QUERY] Query executed successfully: use test1
+[07-21-2024 20:15:21] ### [QUERY] User s@g.com writing query to execute
+[07-21-2024 20:15:23] ### [QUERY] Query executed successfully: insert into student (id,name) values (4,'u')
+[07-21-2024 20:33:53] ### [QUERY] User s@g.com writing query to execute
+[07-21-2024 20:33:57] ### [QUERY] Query executed successfully: use test1
+[07-21-2024 20:34:19] ### [QUERY] User s@g.com writing query to execute
+[07-21-2024 20:34:24] ### [QUERY] Query executed successfully: use test1
+[07-21-2024 20:34:33] ### [QUERY] User s@g.com writing query to execute
+[07-21-2024 20:34:42] ### [QUERY] Failed to execute query: select * from student
+[07-21-2024 20:34:59] ### [QUERY] User s@g.com writing query to execute
+[07-21-2024 20:35:03] ### [QUERY] Failed to execute query: select id from student 
+[07-21-2024 20:35:22] ### [QUERY] User s@g.com writing query to execute
+[07-21-2024 20:35:26] ### [QUERY] Failed to execute query: v
+[07-21-2024 20:35:28] ### [QUERY] User s@g.com writing query to execute
+[07-21-2024 20:35:29] ### [QUERY] Query executed successfully: select id from student where name = 's'
+[07-21-2024 20:35:39] ### [QUERY] User s@g.com writing query to execute
+[07-21-2024 20:35:59] ### [QUERY] Failed to execute query: select id from student where name = Mirza
+[07-21-2024 20:36:04] ### [QUERY] User s@g.com writing query to execute
+[07-21-2024 20:36:08] ### [QUERY] Query executed successfully: select id from student where name = 'Mirza'
+[07-21-2024 20:43:38] ### [QUERY] User s@g.com writing query to execute
+[07-21-2024 20:43:41] ### [QUERY] Query executed successfully: use test1
+[07-21-2024 20:43:43] ### [QUERY] User s@g.com writing query to execute
+[07-21-2024 20:44:12] ### [QUERY] Query executed successfully: SELECT * FROM student
+[07-21-2024 20:44:32] ### [QUERY] User s@g.com writing query to execute
+[07-21-2024 20:44:33] ### [QUERY] Query executed successfully: SELECT id FROM student;
+[07-21-2024 20:44:45] ### [QUERY] User s@g.com writing query to execute
+[07-21-2024 20:44:49] ### [QUERY] Query executed successfully: SELECT name FROM student
+[07-21-2024 20:44:51] ### [QUERY] User s@g.com writing query to execute
+[07-21-2024 20:45:09] ### [QUERY] Query executed successfully: SELECT id FROM student WHERE name = 's'
+[07-21-2024 20:45:13] ### [QUERY] User s@g.com writing query to execute
+[07-21-2024 20:45:20] ### [QUERY] Query executed successfully: SELECT id FROM student WHERE name = 'Mirza'
+[07-21-2024 20:45:24] ### [QUERY] User s@g.com writing query to execute
+[07-21-2024 20:45:29] ### [QUERY] Failed to execute query: SELECT name FROM student WHERE id = 1
+[07-21-2024 20:45:32] ### [QUERY] User s@g.com writing query to execute
+[07-21-2024 20:45:36] ### [QUERY] Failed to execute query: SELECT name FROM student WHERE id = 1
+[07-21-2024 20:48:53] ### [QUERY] User s@g.com writing query to execute
+[07-21-2024 20:48:56] ### [QUERY] Query executed successfully: use test1
+[07-21-2024 20:48:58] ### [QUERY] User s@g.com writing query to execute
+[07-21-2024 20:49:05] ### [QUERY] Query executed successfully: SELECT * FROM student;
+[07-21-2024 20:49:08] ### [QUERY] User s@g.com writing query to execute
+[07-21-2024 20:49:15] ### [QUERY] Query executed successfully: SELECT id FROM student;
+[07-21-2024 20:49:27] ### [QUERY] User s@g.com writing query to execute
+[07-21-2024 20:49:33] ### [QUERY] Query executed successfully: SELECT name FROM student;
+[07-21-2024 20:49:36] ### [QUERY] User s@g.com writing query to execute
+[07-21-2024 20:49:43] ### [QUERY] Query executed successfully: SELECT id FROM student WHERE name = 's';
+[07-21-2024 20:49:46] ### [QUERY] User s@g.com writing query to execute
+[07-21-2024 20:49:51] ### [QUERY] Query executed successfully: SELECT id FROM student WHERE name = 'Mirza';
+[07-21-2024 20:49:54] ### [QUERY] User s@g.com writing query to execute
+[07-21-2024 20:50:05] ### [QUERY] Failed to execute query: SELECT name FROM student WHERE id = 1;
+[07-21-2024 20:50:26] ### [QUERY] User s@g.com writing query to execute
+[07-21-2024 20:50:28] ### [QUERY] Failed to execute query: SELECT name FROM student WHERE id = 1;
+[07-21-2024 20:50:47] ### [QUERY] User s@g.com writing query to execute
+[07-21-2024 20:50:50] ### [QUERY] Query executed successfully: use test1
+[07-21-2024 20:50:52] ### [QUERY] User s@g.com writing query to execute
+[07-21-2024 20:50:55] ### [QUERY] Failed to execute query: SELECT name FROM student WHERE id = 1;
+[07-21-2024 20:51:18] ### [QUERY] User s@g.com writing query to execute
+[07-21-2024 20:51:20] ### [QUERY] Query executed successfully: use test1
+[07-21-2024 20:51:22] ### [QUERY] User s@g.com writing query to execute
+[07-21-2024 20:52:41] ### [QUERY] Failed to execute query: SELECT name FROM student WHERE id = 1;
+[07-21-2024 20:52:53] ### [QUERY] User s@g.com writing query to execute
+[07-21-2024 20:54:02] ### [QUERY] Failed to execute query: SELECT name FROM student WHERE id = 1;
+[07-21-2024 20:54:25] ### [QUERY] User s@g.com writing query to execute
+[07-21-2024 20:54:28] ### [QUERY] Query executed successfully: use test1
+[07-21-2024 20:54:31] ### [QUERY] User s@g.com writing query to execute
+[07-21-2024 20:54:35] ### [QUERY] Failed to execute query: SELECT name FROM student WHERE id = 1
+[07-21-2024 20:54:38] ### [QUERY] User s@g.com writing query to execute
+[07-21-2024 20:54:50] ### [QUERY] Query executed successfully: SELECT name FROM student WHERE id = '1'
+[07-21-2024 20:55:27] ### [QUERY] User s@g.com writing query to execute
+[07-21-2024 20:58:17] ### [QUERY] User s@g.com writing query to execute
+[07-21-2024 20:58:19] ### [QUERY] Query executed successfully: use test1
+[07-21-2024 20:58:36] ### [QUERY] User s@g.com writing query to execute
+[07-21-2024 20:58:37] ### [QUERY] Query executed successfully: SELECT * FROM student;
+[07-21-2024 20:58:40] ### [QUERY] User s@g.com writing query to execute
+[07-21-2024 20:58:49] ### [QUERY] Query executed successfully: SELECT id FROM student;
+[07-21-2024 20:58:52] ### [QUERY] User s@g.com writing query to execute
+[07-21-2024 20:59:00] ### [QUERY] Query executed successfully: SELECT name FROM student;
+[07-21-2024 20:59:04] ### [QUERY] User s@g.com writing query to execute
+[07-21-2024 20:59:10] ### [QUERY] Query executed successfully: SELECT id FROM student WHERE name = 's';
+[07-21-2024 20:59:12] ### [QUERY] User s@g.com writing query to execute
+[07-21-2024 20:59:17] ### [QUERY] Query executed successfully: SELECT id FROM student WHERE name = 'Mirza';
+[07-21-2024 20:59:21] ### [QUERY] User s@g.com writing query to execute
+[07-21-2024 20:59:26] ### [QUERY] Query executed successfully: SELECT name FROM student WHERE id = 1;
